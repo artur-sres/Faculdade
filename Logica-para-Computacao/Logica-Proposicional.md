@@ -5,13 +5,13 @@
 
 *** 
 ### Exemplos:
-p: "O céu é azul." (É uma proposição, podemos dizer se é V ou F)
+    p: "O céu é azul." (É uma proposição, podemos dizer se é V ou F)
 
-q: "A grama é vermelha." (É uma proposição)
+    q: "A grama é vermelha." (É uma proposição)
 
-"Que horas são?" (Não é uma proposição, é uma pergunta)
+    "Que horas são?" (Não é uma proposição, é uma pergunta)
 
-"Estude!" (Não é uma proposição, é uma ordem)
+    "Estude!" (Não é uma proposição, é uma ordem)
 
 ***
 
@@ -33,15 +33,15 @@ Bicondicional (SE E SOMENTE SE): ↔
 ***
 
 ### Exxemplos de aplicação:
-¬p ("Não é verdade que o céu é azul")
+    ¬p ("Não é verdade que o céu é azul")
 
-p ∧ q ("O céu é azul E a grama é vermelha")
+    p ∧ q ("O céu é azul E a grama é vermelha")
 
-p ∨ q ("O céu é azul OU a grama é vermelha")
+    p ∨ q ("O céu é azul OU a grama é vermelha")
 
-p → q ("SE o céu é azul, ENTÃO a grama é vermelha")
+    p → q ("SE o céu é azul, ENTÃO a grama é vermelha")
 
-p ↔ q ("O céu é azul SE E SOMENTE SE a grama é vermelha")
+    p ↔ q ("O céu é azul SE E SOMENTE SE a grama é vermelha")
 
 ***
 
