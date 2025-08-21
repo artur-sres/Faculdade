@@ -29,12 +29,12 @@ Os quantificadores são operadores que permitem generalizar afirmações sobre o
 * Quantificador Universal (∀): 
 Símbolo para "para todo" ou "para cada". É utilizado para fazer uma afirmação que é válida para todos os elementos de um determinado conjunto.
 
-    Exemplo: ∀x (Humano(x) → Mortal(x)) que se lê: "Para todo x, se x é humano, então x é mortal."
+        Exemplo: ∀x (Humano(x) → Mortal(x)) que se lê: "Para todo x, se x é humano, então x é mortal."
 
 * Quantificador Existencial (∃): 
 Símbolo para "existe" ou "para algum". É utilizado para afirmar a existência de pelo menos um elemento em um conjunto que possui uma determinada propriedade.
 
-    Exemplo: ∃x (Planeta(x) ∧ Gasoso(x)) que se lê: "Existe um x tal que x é um planeta e x é gasoso."
+        Exemplo: ∃x (Planeta(x) ∧ Gasoso(x)) que se lê: "Existe um x tal que x é um planeta e x é gasoso."
 
 <br>
 
