@@ -7,8 +7,8 @@
  
 Cada tópico tem um uma área própria dentro da pasta [Lógica para Computação](https://github.com/artur-sres/Faculdade/tree/main/Lógica-para-Computacao)
 
-1. [Lógica Proposicional](https://github.com/artur-sres/Faculdade/tree/main/Lógica-para-Computacao/Logica-Proposicional)
-1. [Lógica de Primeira Ordem](https://github.com/artur-sres/Faculdade/tree/main/Lógica-para-Computacao/Logica-de-Primeira-Ordem)
+1. [Lógica Proposicional](https://github.com/artur-sres/Faculdade/blob/main/Logica-para-Computacao/Logica-Proposicional.md)
+1. [Lógica de Primeira Ordem](https://github.com/artur-sres/Faculdade/blob/main/Logica-para-Computacao/Logica-de-PrimeiraOrdem.md)
 2. [Formalização de Problemas]()
 3. [Sistemas Dedutivos]()
 4. [Correção e Completude]() 
