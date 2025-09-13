@@ -51,6 +51,8 @@ Se A, B ∈ Llp, então (A∧B), (A∨B), (A→B) ∈ Llp
 
 ### O conjunto Llp é o menor obtido das regras anteriores!
 
+<br>
+
 ***
 
 ### Simplificar a notação (Metalinguagem)
