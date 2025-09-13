@@ -30,6 +30,17 @@ Implicação (SE ... ENTÃO): →
 
 Bicondicional (SE E SOMENTE SE): ↔
 
+*** 
+
+A ordem de precedência dos conectivos é (da maior para a menor): ¬, ∧,
+∨, → e ↔
+
+Caso uma ordem diferente seja desejada, podemos usar parênteses. Por
+exemplo, na fórmula ¬p ∧ q, a negação afeta apenas o símbolo proposicional p;
+para que ela afete a conjunção de p e q, devemos escrever ¬(p ∧ q).
+
+ Que nem na matemática padrão.
+
 ***
 
 ### Exxemplos de aplicação:
@@ -46,3 +57,9 @@ Bicondicional (SE E SOMENTE SE): ↔
 ***
 
 Na computação, isso é a base dos circuitos digitais. Pense em V como 1 e F como 0. Os conectivos E, OU e NÃO são diretamente as portas lógicas AND, OR e NOT que formam todo o hardware do seu computador.
+
+<br>
+
+# Exemplos Práticos
+
+### Formalizando sentenças
