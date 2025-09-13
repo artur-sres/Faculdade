@@ -1,26 +1,33 @@
 # Lógica Proposicional 
 
-### Definição
 É a forma mais básica de lógica. A ideia central dela é trabalhar com proposições, que são sentenças declarativas que podem ser classificadas, sem ambiguidade, como verdadeiras (V) ou falsas (F).
+<br>
 
-*** 
-### Exemplos:
-    p: "O céu é azul." (É uma proposição, podemos dizer se é V ou F)
-
-    q: "A grama é vermelha." (É uma proposição, podemos dizer se é V ou F)
-
-    "Que horas são?" (Não é uma proposição, é uma pergunta)
-
-    "Estude!" (Não é uma proposição, é uma ordem)
+É um conjunto infinito e contável de átomos (SImbolos Proposicionais, Variáveis Proposicionais)<br>
+P = {P₁, P₂, P₃, ...}
 
 ***
 
-A Lógica Proposicional não se importa com o conteúdo da frase ("céu", "azul"), apenas com seu valor verdade (V ou F). Ela então combina essas proposições usando conectivos lógicos:
+### Operadores Lógicos, conectivos e outros simbolos: 
+
+#### Unários:
+- Negação (NÃO): ¬
+    
+#### Binários
+- Conjunção (E): ∧
+
+- Disjunção (OU): ∨
+
+- Implicação (SE ... ENTÃO): →
+
+
+#### Simbolos Auxiliares
+- Parenteses "(" , ")"
+
+<br>
 
 ***
-
-### Limitações
-Na Lógica Proposicional não é possível expressar:
+### Na Lógica Proposicional não é possível expressar:
 
 - Quantificações ("Todos", "Existe").
 - Relações (Comparações).
@@ -30,26 +37,48 @@ Na Lógica Proposicional não é possível expressar:
 
 *** 
 
-### Os conectivos são: 
-Negação (NÃO): ¬
-    
-Conjunção (E): ∧
+### Linguagem Proposicional Llp (Conjunto de Fórmulas)
 
-Disjunção (OU): ∨
+- ### Caso Base:
+Átomos (Simbolos Proposicionais) ∈ Llp
 
-Implicação (SE ... ENTÃO): →
+- ### Caso Indutivo 01:
+Se A ∈ Llp, então (¬A) ∈ Llp
+
+- ### Caso Indutivo 02:
+Se A, B ∈ Llp, então (A∧B), (A∨B), (A→B) ∈ Llp
 
 
-- A ordem de precedência dos conectivos é (da maior para a menor): ¬, ∧,
-∨, →
+### O conjunto Llp é o menor obtido das regras anteriores!
 
 ***
 
-Caso uma ordem diferente seja desejada, podemos usar parênteses. 
-<br> 
-Por exemplo, na fórmula ¬p ∧ q, a negação afeta apenas o símbolo proposicional p;
+### Simplificar a notação (Metalinguagem)
+
+- Simbolos Proposicionais <br>
+(p, q, r, s, ...)
+
+- Fórmulas Quaisquer <br>
+(A, B, C, ...)
+
+- Dispensar parenteses <br>
+    - (P∧Q) ➔ p∧q 
+    - Em uso repetido de V ou ∧
+    - Quando p→q→r→s 
+    - Por precedencia: ¬, ∧, V, →
+
 <br>
-Para que ela afete a conjunção de p e q, devemos escrever ¬(p ∧ q).
 
 ***
 
+### Subfórmulas
+Definimos SUB(A) (subfórmulas) indutivamente:
+
+- Caso Base: A = P <br>
+SUB(P) = {P} 
+
+- Caso Indutivo A = ¬B <br>
+SUB(¬B) = {¬B} ∪ SUB(B)
+
+- Caso Indutivo A = B □ C | □ ∈ {∧, V, →} <br>
+SUB(B □ C) = {B □ C} ∪ SUB(B) ∪ SUB(C)
