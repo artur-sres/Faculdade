@@ -8,12 +8,12 @@ P = {P₁, P₂, P₃, ...}
 
 ***
 
-## Operadores Lógicos, conectivos e outros simbolos: 
+### Operadores Lógicos, conectivos e outros simbolos: 
 
-### Unários:
+#### Unários:
 - Negação (NÃO): ¬
     
-### Binários
+#### Binários
 - Conjunção (E): ∧
 
 - Disjunção (OU): ∨
@@ -21,13 +21,13 @@ P = {P₁, P₂, P₃, ...}
 - Implicação (SE ... ENTÃO): →
 
 
-### Simbolos Auxiliares
+#### Simbolos Auxiliares
 - Parenteses "(" , ")"
 
 <br>
 
 ***
-## Na Lógica Proposicional não é possível expressar:
+### Na Lógica Proposicional não é possível expressar:
 
 - Quantificações ("Todos", "Existe").
 - Relações (Comparações).
@@ -37,7 +37,7 @@ P = {P₁, P₂, P₃, ...}
 
 *** 
 
-## Linguagem Proposicional Llp (Conjunto de Fórmulas)
+### Linguagem Proposicional Llp (Conjunto de Fórmulas)
 
 - ### Caso Base:
 Átomos (Simbolos Proposicionais) ∈ Llp
@@ -55,7 +55,7 @@ Se A, B ∈ Llp, então (A∧B), (A∨B), (A→B) ∈ Llp
 
 ***
 
-## Simplificar a notação (Metalinguagem)
+### Simplificar a notação (Metalinguagem)
 
 - Simbolos Proposicionais <br>
 (p, q, r, s, ...)
@@ -73,7 +73,7 @@ Se A, B ∈ Llp, então (A∧B), (A∨B), (A→B) ∈ Llp
 
 ***
 
-## Subfórmulas
+### Subfórmulas
 Definimos SUB(A) (subfórmulas) indutivamente:
 
 - Caso Base: A = P <br>
