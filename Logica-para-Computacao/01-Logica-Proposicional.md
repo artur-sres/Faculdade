@@ -24,7 +24,7 @@ P = {P₁, P₂, P₃, ...}
 #### Simbolos Auxiliares
 - Parenteses "(" , ")"
 
-<br>
+
 
 ***
 ### Na Lógica Proposicional não é possível expressar:
@@ -33,7 +33,7 @@ P = {P₁, P₂, P₃, ...}
 - Relações (Comparações).
 - Propriedades.
 
-<br>
+
 
 *** 
 
@@ -51,7 +51,7 @@ Se A, B ∈ Llp, então (A∧B), (A∨B), (A→B) ∈ Llp
 
 ### O conjunto Llp é o menor obtido das regras anteriores!
 
-<br>
+
 
 ***
 
@@ -69,7 +69,7 @@ Se A, B ∈ Llp, então (A∧B), (A∨B), (A→B) ∈ Llp
     - Quando p→q→r→s 
     - Por precedencia: ¬, ∧, V, →
 
-<br>
+
 
 ***
 
